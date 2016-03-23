@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <FrameLayout
+        android:id="@+id/preview_home"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/preview_image"
+            android:layout_width="383dp"
+            android:layout_height="128dp"
+            android:background="@mipmap/web2"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:background="#000000">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="2016년 03월 03일 저장된 파일 입니다"
+                android:textSize="20dp"
+                android:textColor="#ffffff"/>
+
+        </RelativeLayout>
+
+    </FrameLayout>
+
+</LinearLayout>

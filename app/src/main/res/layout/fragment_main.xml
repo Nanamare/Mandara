@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:background="@color/colorPrimary"
+    android:layout_height="wrap_content">
+    <Button
+        android:onClick="basicOnClicked"
+        android:text="기본 이미지로 변경"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/btn" />
+    <Button
+        android:onClick="OnPicClick"
+        android:id="@+id/btn"
+        android:text="앨범에서 가져오기"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

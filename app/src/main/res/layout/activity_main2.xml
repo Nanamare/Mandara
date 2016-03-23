@@ -1,0 +1,853 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Linear"
+    android:layout_height="wrap_content" android:layout_width="match_parent">
+<TableLayout
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_columnSpan="3"
+android:layout_rowSpan="3"
+android:weightSum="9"
+android:background="#111"
+tools:context="com.devcamp.yapp.myapplication.MainActivity">
+
+
+<TableRow
+    android:weightSum="9"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:gravity="center"
+        android:text="탕슉"
+        android:layout_marginBottom="1dp"
+        android:layout_marginLeft="1dp"
+        android:background="#ffffffff"
+        android:id="@+id/txt1_1"
+        android:layout_marginTop="1dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:gravity="center"
+        android:text="깐푹"
+        android:layout_marginBottom="1dp"
+        android:layout_marginLeft="1dp"
+        android:background="#ffffffff"
+        android:id="@+id/txt1_2"
+        android:layout_marginTop="1dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:gravity="center"
+        android:text="칠새"
+        android:layout_marginBottom="1dp"
+        android:layout_marginLeft="1dp"
+        android:background="#ffffffff"
+        android:id="@+id/txt1_3"
+        android:layout_marginRight="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:gravity="center"
+        android:text="초밥"
+        android:layout_marginBottom="1dp"
+        android:layout_marginLeft="1dp"
+        android:background="#ffffffff"
+        android:id="@+id/txt2_1"
+        android:layout_marginTop="1dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:gravity="center"
+        android:text="돈불"
+        android:layout_marginBottom="1dp"
+        android:layout_marginLeft="1dp"
+        android:background="#ffffffff"
+        android:id="@+id/txt2_2"
+        android:layout_marginTop="1dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:gravity="center"
+        android:text="참최"
+        android:layout_marginBottom="1dp"
+        android:layout_marginLeft="1dp"
+        android:background="#ffffffff"
+        android:id="@+id/txt2_3"
+        android:layout_marginRight="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:gravity="center"
+        android:text="삼겹"
+        android:layout_marginBottom="1dp"
+        android:layout_marginLeft="1dp"
+        android:background="#ffffffff"
+        android:id="@+id/txt3_1"
+        android:layout_marginTop="1dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:gravity="center"
+        android:text="갈비"
+        android:layout_marginBottom="1dp"
+        android:layout_marginLeft="1dp"
+        android:background="#ffffffff"
+        android:id="@+id/txt3_2"
+        android:layout_marginTop="1dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:gravity="center"
+        android:text="갈맥"
+        android:layout_marginBottom="1dp"
+        android:layout_marginLeft="1dp"
+        android:background="#ffffffff"
+        android:id="@+id/txt3_3"
+        android:layout_marginRight="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_weight="1" />
+</TableRow>
+
+<TableRow
+    android:weightSum="9"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:gravity="center"
+        android:text="짬뽕"
+        android:layout_marginBottom="1dp"
+        android:layout_marginLeft="1dp"
+        android:background="#ffffffff"
+        android:id="@+id/txt1_4"
+        android:layout_weight="1" />
+
+    <TextView
+        android:gravity="center"
+        android:text="중식"
+        android:layout_marginBottom="1dp"
+        android:layout_marginLeft="1dp"
+        android:background="#ffffffff"
+        android:id="@+id/txt1_5"
+        android:layout_weight="1" />
+
+    <TextView
+        android:gravity="center"
+        android:text="사천"
+        android:layout_marginBottom="1dp"
+        android:layout_marginLeft="1dp"
+        android:background="#ffffffff"
+        android:id="@+id/txt1_6"
+        android:layout_marginRight="1dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:gravity="center"
+        android:text="소바"
+        android:layout_marginBottom="1dp"
+        android:layout_marginLeft="1dp"
+        android:background="#ffffffff"
+        android:id="@+id/txt2_4"
+        android:layout_weight="1" />
+
+    <TextView
+        android:gravity="center"
+        android:text="일식"
+        android:layout_marginBottom="1dp"
+        android:layout_marginLeft="1dp"
+        android:background="#ffffffff"
+        android:id="@+id/txt2_5"
+        android:layout_weight="1" />
+
+    <TextView
+        android:gravity="center"
+        android:text="오코"
+        android:layout_marginBottom="1dp"
+        android:layout_marginLeft="1dp"
+        android:background="#ffffffff"
+        android:id="@+id/txt2_6"
+        android:layout_marginRight="1dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:gravity="center"
+        android:text="항정"
+        android:layout_marginBottom="1dp"
+        android:layout_marginLeft="1dp"
+        android:background="#ffffffff"
+        android:id="@+id/txt3_4"
+        android:layout_weight="1" />
+
+    <TextView
+        android:gravity="center"
+        android:text="고기"
+        android:layout_marginBottom="1dp"
+        android:layout_marginLeft="1dp"
+        android:background="#ffffffff"
+        android:id="@+id/txt3_5"
+        android:layout_weight="1" />
+
+    <TextView
+        android:gravity="center"
+        android:text="목살"
+        android:layout_marginBottom="1dp"
+        android:layout_marginLeft="1dp"
+        android:background="#ffffffff"
+        android:id="@+id/txt3_6"
+        android:layout_marginRight="1dp"
+        android:layout_weight="1" />
+</TableRow>
+
+<TableRow
+    android:weightSum="9"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:gravity="center"
+        android:text="짜장"
+        android:layout_marginBottom="1dp"
+        android:layout_marginLeft="1dp"
+        android:background="#ffffffff"
+        android:id="@+id/txt1_7"
+        android:layout_weight="1" />
+
+    <TextView
+        android:gravity="center"
+        android:text="유린"
+        android:layout_marginBottom="1dp"
+        android:layout_marginLeft="1dp"
+        android:background="#ffffffff"
+        android:id="@+id/txt1_8"
+        android:layout_weight="1" />
+
+    <TextView
+        android:gravity="center"
+        android:text="북경"
+        android:layout_marginBottom="1dp"
+        android:layout_marginLeft="1dp"
+        android:background="#ffffffff"
+        android:id="@+id/txt1_9"
+        android:layout_marginRight="1dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:gravity="center"
+        android:text="라멘"
+        android:layout_marginBottom="1dp"
+        android:layout_marginLeft="1dp"
+        android:background="#ffffffff"
+        android:id="@+id/txt2_7"
+        android:layout_weight="1" />
+
+    <TextView
+        android:gravity="center"
+        android:text="덮밥"
+        android:layout_marginBottom="1dp"
+        android:layout_marginLeft="1dp"
+        android:background="#ffffffff"
+        android:id="@+id/txt2_8"
+        android:layout_weight="1" />
+
+    <TextView
+        android:gravity="center"
+        android:text="우동"
+        android:layout_marginBottom="1dp"
+        android:layout_marginLeft="1dp"
+        android:background="#ffffffff"
+        android:id="@+id/txt2_9"
+        android:layout_marginRight="1dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:gravity="center"
+        android:text="가블"
+        android:layout_marginBottom="1dp"
+        android:layout_marginLeft="1dp"
+        android:background="#ffffffff"
+        android:id="@+id/txt3_7"
+        android:layout_weight="1" />
+
+    <TextView
+        android:gravity="center"
+        android:text="등심"
+        android:layout_marginBottom="1dp"
+        android:layout_marginLeft="1dp"
+        android:background="#ffffffff"
+        android:id="@+id/txt3_8"
+        android:layout_weight="1" />
+
+    <TextView
+        android:gravity="center"
+        android:text="안심"
+        android:layout_marginBottom="1dp"
+        android:layout_marginLeft="1dp"
+        android:background="#ffffffff"
+        android:id="@+id/txt3_9"
+        android:layout_marginRight="1dp"
+        android:layout_weight="1" />
+</TableRow>
+
+<TableRow
+    android:weightSum="9"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:gravity="center"
+        android:text="비빔"
+        android:layout_marginBottom="1dp"
+        android:layout_marginLeft="1dp"
+        android:background="#ffffffff"
+        android:id="@+id/txt4_1"
+        android:layout_marginTop="1dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:gravity="center"
+        android:text="신라"
+        android:layout_marginBottom="1dp"
+        android:layout_marginLeft="1dp"
+        android:background="#ffffffff"
+        android:id="@+id/txt4_2"
+        android:layout_marginTop="1dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:gravity="center"
+        android:text="짜왕"
+        android:layout_marginBottom="1dp"
+        android:layout_marginLeft="1dp"
+        android:background="#ffffffff"
+        android:id="@+id/txt4_3"
+        android:layout_marginRight="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:gravity="center"
+        android:text="중식"
+        android:layout_marginBottom="1dp"
+        android:layout_marginLeft="1dp"
+        android:background="#ffffffff"
+        android:id="@+id/txt5_1"
+        android:layout_marginTop="1dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:gravity="center"
+        android:text="일식"
+        android:layout_marginBottom="1dp"
+        android:layout_marginLeft="1dp"
+        android:background="#ffffffff"
+        android:id="@+id/txt5_2"
+        android:layout_marginTop="1dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:gravity="center"
+        android:text="고기"
+        android:layout_marginBottom="1dp"
+        android:layout_marginLeft="1dp"
+        android:background="#ffffffff"
+        android:id="@+id/txt5_3"
+        android:layout_marginRight="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:gravity="center"
+        android:text="스텤"
+        android:layout_marginBottom="1dp"
+        android:layout_marginLeft="1dp"
+        android:background="#ffffffff"
+        android:id="@+id/txt6_1"
+        android:layout_marginTop="1dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:gravity="center"
+        android:text="파슽"
+        android:layout_marginBottom="1dp"
+        android:layout_marginLeft="1dp"
+        android:background="#ffffffff"
+        android:id="@+id/txt6_2"
+        android:layout_marginTop="1dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:gravity="center"
+        android:text="훈제"
+        android:layout_marginBottom="1dp"
+        android:layout_marginLeft="1dp"
+        android:background="#ffffffff"
+        android:id="@+id/txt6_3"
+        android:layout_marginRight="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_weight="1" />
+</TableRow>
+
+<TableRow
+    android:weightSum="9"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:gravity="center"
+        android:text="너굴"
+        android:layout_marginBottom="1dp"
+        android:layout_marginLeft="1dp"
+        android:background="#ffffffff"
+        android:id="@+id/txt4_4"
+        android:layout_weight="1" />
+
+    <TextView
+        android:gravity="center"
+        android:text="라면"
+        android:layout_marginBottom="1dp"
+        android:layout_marginLeft="1dp"
+        android:background="#ffffffff"
+        android:id="@+id/txt4_5"
+        android:layout_weight="1" />
+
+    <TextView
+        android:gravity="center"
+        android:text="불닭"
+        android:layout_marginBottom="1dp"
+        android:layout_marginLeft="1dp"
+        android:background="#ffffffff"
+        android:id="@+id/txt4_6"
+        android:layout_marginRight="1dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:gravity="center"
+        android:text="라면"
+        android:layout_marginBottom="1dp"
+        android:layout_marginLeft="1dp"
+        android:background="#ffffffff"
+        android:id="@+id/txt5_4"
+        android:layout_weight="1" />
+
+    <TextView
+        android:gravity="center"
+        android:text="밥"
+        android:layout_marginBottom="1dp"
+        android:layout_marginLeft="1dp"
+        android:background="#ffffffff"
+        android:id="@+id/txt5_5"
+        android:layout_weight="1" />
+
+    <TextView
+        android:gravity="center"
+        android:text="기타"
+        android:layout_marginBottom="1dp"
+        android:layout_marginLeft="1dp"
+        android:background="#ffffffff"
+        android:id="@+id/txt5_6"
+        android:layout_marginRight="1dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:gravity="center"
+        android:text="햄벅"
+        android:layout_marginBottom="1dp"
+        android:layout_marginLeft="1dp"
+        android:background="#ffffffff"
+        android:id="@+id/txt6_4"
+        android:layout_weight="1" />
+
+    <TextView
+        android:gravity="center"
+        android:text="기타"
+        android:layout_marginBottom="1dp"
+        android:layout_marginLeft="1dp"
+        android:background="#ffffffff"
+        android:id="@+id/txt6_5"
+        android:layout_weight="1" />
+
+    <TextView
+        android:gravity="center"
+        android:text="벹남"
+        android:layout_marginBottom="1dp"
+        android:layout_marginLeft="1dp"
+        android:background="#ffffffff"
+        android:id="@+id/txt6_6"
+        android:layout_marginRight="1dp"
+        android:layout_weight="1" />
+</TableRow>
+
+<TableRow
+    android:weightSum="9"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:gravity="center"
+        android:text="삼양"
+        android:layout_marginBottom="1dp"
+        android:layout_marginLeft="1dp"
+        android:background="#ffffffff"
+        android:id="@+id/txt4_7"
+        android:layout_weight="1" />
+
+    <TextView
+        android:gravity="center"
+        android:text="진라"
+        android:layout_marginBottom="1dp"
+        android:layout_marginLeft="1dp"
+        android:background="#ffffffff"
+        android:id="@+id/txt4_8"
+        android:layout_weight="1" />
+
+    <TextView
+        android:gravity="center"
+        android:text="안성"
+        android:layout_marginBottom="1dp"
+        android:layout_marginLeft="1dp"
+        android:background="#ffffffff"
+        android:id="@+id/txt4_9"
+        android:layout_marginRight="1dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:gravity="center"
+        android:text="한식"
+        android:layout_marginBottom="1dp"
+        android:layout_marginLeft="1dp"
+        android:background="#ffffffff"
+        android:id="@+id/txt5_7"
+        android:layout_weight="1" />
+
+    <TextView
+        android:gravity="center"
+        android:text="치킨"
+        android:layout_marginBottom="1dp"
+        android:layout_marginLeft="1dp"
+        android:background="#ffffffff"
+        android:id="@+id/txt5_8"
+        android:layout_weight="1" />
+
+    <TextView
+        android:gravity="center"
+        android:text="분식"
+        android:layout_marginBottom="1dp"
+        android:layout_marginLeft="1dp"
+        android:background="#ffffffff"
+        android:id="@+id/txt5_9"
+        android:layout_marginRight="1dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:gravity="center"
+        android:text="피자"
+        android:layout_marginBottom="1dp"
+        android:layout_marginLeft="1dp"
+        android:background="#ffffffff"
+        android:id="@+id/txt6_7"
+        android:layout_weight="1" />
+
+    <TextView
+        android:gravity="center"
+        android:text="만두"
+        android:layout_marginBottom="1dp"
+        android:layout_marginLeft="1dp"
+        android:background="#ffffffff"
+        android:id="@+id/txt6_8"
+        android:layout_weight="1" />
+
+    <TextView
+        android:gravity="center"
+        android:text="커리"
+        android:layout_marginBottom="1dp"
+        android:layout_marginLeft="1dp"
+        android:background="#ffffffff"
+        android:id="@+id/txt6_9"
+        android:layout_marginRight="1dp"
+        android:layout_weight="1" />
+</TableRow>
+
+<TableRow
+    android:weightSum="9"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:gravity="center"
+        android:text="냉면"
+        android:layout_marginBottom="1dp"
+        android:layout_marginLeft="1dp"
+        android:background="#ffffffff"
+        android:id="@+id/txt7_1"
+        android:layout_marginTop="1dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:gravity="center"
+        android:text="설렁"
+        android:layout_marginBottom="1dp"
+        android:layout_marginLeft="1dp"
+        android:background="#ffffffff"
+        android:id="@+id/txt7_2"
+        android:layout_marginTop="1dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:gravity="center"
+        android:text="닭볶"
+        android:layout_marginBottom="1dp"
+        android:layout_marginLeft="1dp"
+        android:background="#ffffffff"
+        android:id="@+id/txt7_3"
+        android:layout_marginRight="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:gravity="center"
+        android:text="BBQ"
+        android:layout_marginBottom="1dp"
+        android:layout_marginLeft="1dp"
+        android:background="#ffffffff"
+        android:id="@+id/txt8_1"
+        android:layout_marginTop="1dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:gravity="center"
+        android:text="BHC"
+        android:layout_marginBottom="1dp"
+        android:layout_marginLeft="1dp"
+        android:background="#ffffffff"
+        android:id="@+id/txt8_2"
+        android:layout_marginTop="1dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:gravity="center"
+        android:text="네네"
+        android:layout_marginBottom="1dp"
+        android:layout_marginLeft="1dp"
+        android:background="#ffffffff"
+        android:id="@+id/txt8_3"
+        android:layout_marginRight="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:gravity="center"
+        android:text="떢볶"
+        android:layout_marginBottom="1dp"
+        android:layout_marginLeft="1dp"
+        android:background="#ffffffff"
+        android:id="@+id/txt9_1"
+        android:layout_marginTop="1dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:gravity="center"
+        android:text="순대"
+        android:layout_marginBottom="1dp"
+        android:layout_marginLeft="1dp"
+        android:background="#ffffffff"
+        android:id="@+id/txt9_2"
+        android:layout_marginTop="1dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:gravity="center"
+        android:text="빙수"
+        android:layout_marginBottom="1dp"
+        android:layout_marginLeft="1dp"
+        android:background="#ffffffff"
+        android:id="@+id/txt9_3"
+        android:layout_marginRight="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_weight="1" />
+</TableRow>
+
+<TableRow
+    android:weightSum="9"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:gravity="center"
+        android:text="게장"
+        android:layout_marginBottom="1dp"
+        android:layout_marginLeft="1dp"
+        android:background="#ffffffff"
+        android:id="@+id/txt7_4"
+        android:layout_weight="1" />
+
+    <TextView
+        android:gravity="center"
+        android:text="한식"
+        android:layout_marginBottom="1dp"
+        android:layout_marginLeft="1dp"
+        android:background="#ffffffff"
+        android:id="@+id/txt7_5"
+        android:layout_weight="1" />
+
+    <TextView
+        android:gravity="center"
+        android:text="찌게"
+        android:layout_marginBottom="1dp"
+        android:layout_marginLeft="1dp"
+        android:background="#ffffffff"
+        android:id="@+id/txt7_6"
+        android:layout_marginRight="1dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:gravity="center"
+        android:text="굽네"
+        android:layout_marginBottom="1dp"
+        android:layout_marginLeft="1dp"
+        android:background="#ffffffff"
+        android:id="@+id/txt8_4"
+        android:layout_weight="1" />
+
+    <TextView
+        android:gravity="center"
+        android:text="치킨"
+        android:layout_marginBottom="1dp"
+        android:layout_marginLeft="1dp"
+        android:background="#ffffffff"
+        android:id="@+id/txt8_5"
+        android:layout_weight="1" />
+
+    <TextView
+        android:gravity="center"
+        android:text="네네"
+        android:layout_marginBottom="1dp"
+        android:layout_marginLeft="1dp"
+        android:background="#ffffffff"
+        android:id="@+id/txt8_6"
+        android:layout_marginRight="1dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:gravity="center"
+        android:text="오뎅"
+        android:layout_marginBottom="1dp"
+        android:layout_marginLeft="1dp"
+        android:background="#ffffffff"
+        android:id="@+id/txt9_4"
+        android:layout_weight="1" />
+
+    <TextView
+        android:gravity="center"
+        android:text="분식"
+        android:layout_marginBottom="1dp"
+        android:layout_marginLeft="1dp"
+        android:background="#ffffffff"
+        android:id="@+id/txt9_5"
+        android:layout_weight="1" />
+
+    <TextView
+        android:gravity="center"
+        android:text="보쌈"
+        android:layout_marginBottom="1dp"
+        android:layout_marginLeft="1dp"
+        android:background="#ffffffff"
+        android:id="@+id/txt9_6"
+        android:layout_marginRight="1dp"
+        android:layout_weight="1" />
+</TableRow>
+
+<TableRow
+    android:weightSum="9"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:gravity="center"
+        android:text="낙지"
+        android:layout_marginBottom="2dp"
+        android:layout_marginLeft="1dp"
+        android:background="#ffffffff"
+        android:id="@+id/txt7_7"
+        android:layout_weight="1" />
+
+    <TextView
+        android:gravity="center"
+        android:text="백반"
+        android:layout_marginBottom="2dp"
+        android:layout_marginLeft="1dp"
+        android:background="#ffffffff"
+        android:id="@+id/txt7_8"
+        android:layout_weight="1" />
+
+    <TextView
+        android:gravity="center"
+        android:text="곱창"
+        android:layout_marginBottom="2dp"
+        android:layout_marginLeft="1dp"
+        android:background="#ffffffff"
+        android:id="@+id/txt7_9"
+        android:layout_marginRight="1dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:gravity="center"
+        android:text="교촌"
+        android:layout_marginBottom="2dp"
+        android:layout_marginLeft="1dp"
+        android:background="#ffffffff"
+        android:id="@+id/txt8_7"
+        android:layout_weight="1" />
+
+    <TextView
+        android:gravity="center"
+        android:text="KFC"
+        android:layout_marginBottom="2dp"
+        android:layout_marginLeft="1dp"
+        android:background="#ffffffff"
+        android:id="@+id/txt8_8"
+        android:layout_weight="1" />
+
+    <TextView
+        android:gravity="center"
+        android:text="파파"
+        android:layout_marginBottom="2dp"
+        android:layout_marginLeft="1dp"
+        android:background="#ffffffff"
+        android:id="@+id/txt8_9"
+        android:layout_marginRight="1dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:gravity="center"
+        android:text="케잌"
+        android:layout_marginBottom="2dp"
+        android:layout_marginLeft="1dp"
+        android:background="#ffffffff"
+        android:id="@+id/txt9_7"
+        android:layout_weight="1" />
+
+    <TextView
+        android:gravity="center"
+        android:text="빵"
+        android:layout_marginBottom="2dp"
+        android:layout_marginLeft="1dp"
+        android:background="#ffffffff"
+        android:id="@+id/txt9_8"
+        android:layout_weight="1" />
+
+    <TextView
+        android:gravity="center"
+        android:text="푸딩"
+        android:layout_marginBottom="2dp"
+        android:layout_marginLeft="1dp"
+        android:background="#ffffffff"
+        android:id="@+id/txt9_9"
+        android:layout_marginRight="1dp"
+        android:layout_weight="1" />
+</TableRow>
+</TableLayout>
+</LinearLayout>
